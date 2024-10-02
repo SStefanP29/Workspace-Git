@@ -10,21 +10,21 @@ public class ArticuloMother implements Populable<Articulo> {
 
 	public List<Articulo> crearVariosArticulos() {
 		List<Articulo> articulos = new ArrayList<Articulo>();
-		articulos.add(new Articulo(1L, "Ordenador portátil", 899.99f));
+		articulos.add(new Articulo(1L, "Ordenador portÃ¡til", 899.99f));
 		articulos.add(new Articulo(2L, "Smartphone", 499.99f));
 		articulos.add(new Articulo(3L, "Tablet", 299.99f));
 		articulos.add(new Articulo(4L, "Monitor 24 pulgadas", 199.99f));
-		articulos.add(new Articulo(5L, "Teclado mecánico", 89.99f));
-		articulos.add(new Articulo(6L, "Ratón inalámbrico", 49.99f));
-		articulos.add(new Articulo(7L, "Impresora multifunción", 149.99f));
+		articulos.add(new Articulo(5L, "Teclado mecÃ¡nico", 89.99f));
+		articulos.add(new Articulo(6L, "Ratï¿½n inalÃ¡mbrico", 49.99f));
+		articulos.add(new Articulo(7L, "Impresora multifunciÃ³n", 149.99f));
 		articulos.add(new Articulo(8L, "Auriculares Bluetooth", 79.99f));
-		articulos.add(new Articulo(9L, "Cámara digital", 599.99f));
+		articulos.add(new Articulo(9L, "CÃ¡mara digital", 599.99f));
 		articulos.add(new Articulo(10L, "Disco duro externo 1TB", 59.99f));
 		articulos.add(new Articulo(11L, "Memoria USB 64GB", 14.99f));
-		articulos.add(new Articulo(12L, "Silla ergonómica", 129.99f));
-		articulos.add(new Articulo(13L, "Altavoces estéreo", 39.99f));
-		articulos.add(new Articulo(14L, "Cargador rápido", 24.99f));
-		articulos.add(new Articulo(15L, "Tarjeta gráfica", 349.99f));
+		articulos.add(new Articulo(12L, "Silla ergonÃ³mica", 129.99f));
+		articulos.add(new Articulo(13L, "Altavoces estÃ©reo", 39.99f));
+		articulos.add(new Articulo(14L, "Cargador rÃ¡pido", 24.99f));
+		articulos.add(new Articulo(15L, "Tarjeta grÃ¡fica", 349.99f));
 		return articulos;
 	}
 
