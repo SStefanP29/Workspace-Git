@@ -14,15 +14,16 @@ import modelo.repositorios.RepositorioLista;
 import modelo.repositorios.om.DependienteMother;
 
 class RepositorioListaDependientesTest {
-	DependienteMother dependienteMother = new DependienteMother(); // Como no parece tener ning�n estado mutable o
-																	// dependencias de configuraci�n externa, puedes
-																	// inicializarla directamente al momento de declarar
-																	// la variable de instancia. Es una buena pr�ctica
-																	// inicializar directamente objetos "inmutables" o
-																	// que no tienen dependencias que cambian de prueba
-																	// en prueba, ya que no es necesario recrearlos para
-																	// cada prueba. Al hacerlo directamente al declarar
-																	// la variable, se reduce el c�digo repetitivo
+	// Como no parece tener ning�n estado mutable o
+	// dependencias de configuraci�n externa, puedes
+	// inicializarla directamente al momento de declarar
+	// la variable de instancia. Es una buena pr�ctica
+	// inicializar directamente objetos "inmutables" o
+	// que no tienen dependencias que cambian de prueba
+	// en prueba, ya que no es necesario recrearlos para
+	// cada prueba. Al hacerlo directamente al declarar
+	// la variable, se reduce el c�digo repetitivo
+	DependienteMother dependienteMother = new DependienteMother();
 	List<Dependiente> dependientes;
 	RepositorioLista<Dependiente, String> repositorioListaDependiente;
 

@@ -61,7 +61,7 @@ public class Articulo implements Keyable<Long> {
 	@Override
 	public boolean equalKey(Long keyable) {
 //		return this.id == keyable;
-		return this.id.equals(keyable);	//Porque el id no es de tipo primitivo(Long)
+		return this.id.equals(keyable); // Porque el id no es de tipo primitivo(Long)
 	}
 
 }

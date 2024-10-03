@@ -5,6 +5,5 @@ import modelo.dominio.Persona;
 
 public class Presentacion {
 	public void imprimirPedido(Pedido provisional, Persona cliente) {
-
 	}
 }
