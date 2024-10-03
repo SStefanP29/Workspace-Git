@@ -26,7 +26,7 @@ class RepositorioListaArticuloTest {
 
 	@Test
 	void testAdd() {
-		Articulo articuloNuevoUno = new Articulo(12l, "Descripción muy larga", 104.4f);
+		Articulo articuloNuevoUno = new Articulo(12l, "Descripciï¿½n muy larga", 104.4f);
 		repositorioListaArticulo.agregar(articuloNuevoUno);
 		assertTrue(elementosExtraidos.contains(articuloNuevoUno));
 	}
@@ -44,7 +44,7 @@ class RepositorioListaArticuloTest {
 		Articulo articuloExtraido = elementosExtraidos.get(5);
 		Long idExtraido = articuloExtraido.getId();
 		Articulo articuloActualizado = new Articulo(idExtraido, "HOLAHOLA", 12f);
-		boolean update = repositorioListaArticulo.update2(articuloActualizado, idExtraido);
+		boolean update = repositorioListaArticulo.update(articuloActualizado);
 		assertTrue(update);
 	}
 

@@ -30,14 +30,6 @@ public class RepositorioLista<T extends Keyable<S>, S> implements Repository<T, 
 		}).findFirst();
 	}
 
-	public boolean update2(T objeto, S llave) {
-		if (delete(llave).isPresent()) {
-			elementos.remove(objeto);
-			return elementos.add(objeto);
-		}
-		return false;
-	}
-
 	@Override
 	public boolean update(T objeto) {
 		if (elementos.remove(objeto)) {
