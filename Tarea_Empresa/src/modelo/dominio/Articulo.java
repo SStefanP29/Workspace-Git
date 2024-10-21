@@ -20,10 +20,6 @@ public class Articulo implements Keyable<Long> {
 		return id;
 	}
 
-	private void setId(Long id) {
-		this.id = id;
-	}
-
 	public String getDescripcion() {
 		return descripcion;
 	}
